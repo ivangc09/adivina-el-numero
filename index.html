@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adivina el número</title>
+</head>
+<body>
+    <div class="juego">
+        <h1>Adivina el número</h1>
+        <p>Introduce un número entre 1 y 100</p>
+        <input type="number" id="numero">
+        <div class="botones">
+            <button id="botonComprobar">Comprobar</button>
+            <button id="botonJuegoNuevo">Nuevo Juego</button>
+        </div>
+    </div>
+
+    <div class="intentos">
+        <h2>Intentos restantes: <span>10</span></h2>
+        <p>Intentos anteriores:</p>
+        <ul id="intentos"></ul>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
